@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript | STR CON</title>
+    <link rel="stylesheet" type="text/css" href="strcon.css">
+</head>
+
+<body>
+    <div class="logo">
+        <a href="#"><img src="Pictures/CHANGED LOGO.png"></a>
+    </div>
+            <nav>
+                <ul class="main">
+                    <li><a href="index.html">HOME</a></li>
+                    <li>
+                        <a href="#">JAVASCRIPT</a> <!-- link that creates dropdown menu -->
+                        <ul class="dropdown">    <!-- dropdown menu list -->
+                            <li><a href="strcon.html">STR CON</a></li>
+                            <li><a href="math.html">BASIC MATH</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">GALLERY</a> <!-- link that creates dropdown menu -->
+                        <ul class="dropdown">    <!-- dropdown menu list -->
+                            <li><a href="pet.html">PETS</a></li>
+                            <li><a href="family.html">FAMILY</a></li>
+                            <li><a href="friends.html">FRIENDS</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </nav>
+            <div class="content-wrapper">
+                <img src="Pictures/bg2.png">
+                <div class="text-wrapper">
+                    <h1>JAVA SCRIPT FUNCTION (STR CON)</h1>
+                </div>
+         </div>
+         <div class="container-fluid" id="strinfo">
+            <div class="container">
+              <div class="row vh-100 align-items-center justify-content-center">
+                <div class="col-lg-10 border border-5 rounded bg-light">
+                  <div class="container text-center">
+                    <div class="row">
+                      <h1>STRING CONCATENATION</h1>
+                      <div class="col-lg-6">
+                        <p>Full Name: <button onclick="showFullName()">Click Me!</button> </p>
+                        <p>How old I am?: <button onclick="showAge()">Click Me!</button> </p>
+                        <p>When is my Birthday?: <button onclick="showBirthday()">Click Me!</button> </p>
+                        <p>Where do I live?: <button onclick="showHomeplace()">Click Me!</button> </p>
+                        <p>Favorite animal: <button onclick="showAnimal()">Click Me!</button> </p>
+                        </div>
+                      <div class="col-lg-6">
+                        <p>My Favorite Color is: <button onclick="showColor()">Click Me!</button> </p>
+                        <p>How many dog do I have?: <button onclick="showPetcount()">Click Me!</button> </p> 
+                        <p>What is my Zodiac Sign?: <button onclick="showZodiacsign()">Click Me!</button> </p>
+                        <p>What is your dream job?: <button onclick="showDreamjob()">Click Me!</button> </p>
+                        <p>My Favorite Game: <button onclick="showFavoritegame()">Click Me!</button> </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      
+          <script>
+            function showFullName() {
+              var surname = "Alejandrino";
+              alert("Jill Shyrine J. " + surname);
+            }
+      
+            function showAge() {
+              var age = "20 yrs old";
+              alert("I am " + age);
+            }
+      
+            function showBirthday() {
+              var year = "2001";
+              alert("November 15, " + year);
+            }
+      
+            function showHomeplace() {
+              var city = "Makati City";
+              alert("Comembo, " + city );
+            }
+
+            function showAnimal() {
+              var pet = "dogs and puppies";
+              alert("I'm inlove with " + pet);
+            }
+
+            function showColor() {
+              var color = "black and red";
+              alert("Definitely " + color);
+            }
+
+            function showPetcount() {
+              var petcount = "9";
+              alert("I love dogs so much i have " + petcount);
+            }
+      
+            function showZodiacsign() {
+              var zsign = "Scorpio";
+              alert("I am a " + zsign );
+            }
+
+            function showDreamjob() {
+              var job = "IT Professional";
+              alert("My dream job is " + job);
+            }
+      
+            function showFavoritegame() {
+              var game = "Dying light";
+              alert("I love survival games like " + game);
+            }
+        
+          </script>

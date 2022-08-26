@@ -1,0 +1,136 @@
+@font-face {
+    font-family: cbean;
+    src: url(Fonts/Coffee\ Bean.ttf);
+}
+
+/* width */
+::-webkit-scrollbar{
+    width: 15px;
+}
+  
+/* Track */
+::-webkit-scrollbar-track{
+    background: #FFFFFF;
+}
+  
+/* Handle */
+::-webkit-scrollbar-thumb{
+    background: #888;
+}
+  
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover{
+    background: #555;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background: #433838;
+}
+
+nav{
+    height: 130px;
+    width: 100%;
+    overflow: auto;
+}
+
+a {
+    text-decoration: none;
+    color: #E6CFC7;
+    display: block;
+    font-family: cbean;
+    font-size: 40px;
+    padding: 15px 20px;
+}
+
+.main {
+    list-style: none;
+    padding: 0;
+    margin-left: 1250px;
+}
+
+ul .dropdown{
+    width: 140px;
+    margin-left: 5px;
+}
+
+ul{
+    padding: 0;
+    list-style: none;
+    margin-left: 1px;
+    position: absolute;
+    z-index: 1;
+}
+
+li {
+    display: inline-block;
+    padding-right: 15px;
+    position: relative;
+}
+
+a:hover{
+    color: white;
+}
+
+ul .dropdown a:hover {
+    color: gray;
+}
+
+.dropdown{
+    background-color: white;
+    display: none;
+}   
+
+li:hover .dropdown {
+  display: block;
+  position: absolute;
+}
+
+ul ul a {
+  color: #433838;
+  text-align: center;
+  
+}
+
+.logo img{
+    position: absolute;
+}
+
+.content-wrapper{
+    width: 100%;
+    position: relative;
+}
+
+.content-wrapper img{
+    width: 100%;
+}
+
+.text-wrapper{
+    width: 100%;
+    margin: -40%;
+    margin-left: -1%;
+}
+
+.text-wrapper h1{
+    text-align: center;
+    color: #433838 ;
+    font-size: 130px;
+    font-family: cbean;
+}
+
+.grid {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    margin-left: 320px;
+    margin-top: 700px;
+}
+  
+.grid img {
+    position: relative;
+    width: 500px;
+    height: 400px;
+    padding-bottom: 100px;
+}
